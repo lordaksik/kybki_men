@@ -81,7 +81,7 @@ bot.hears('/bot', async (ctx) => {
 
     for (i=1;i<19;i++){
         console.log('было '+fo[i]+ ' раз число '+i );
-        if (sum[0] === i && fo[i] > 39){
+        if (sum1[0] === i && fo[i] > 39){
          ctx.reply('было '+fo[i]+ ' раз число '+i );}}
 
     console.log('Было ' + res + " кубков");
